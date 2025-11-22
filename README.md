@@ -20,12 +20,25 @@ Link da apresentação:
 
 |Questão | Dificuldade |
 | -- | -- |
-| [X](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)  | Dificulty |
+| [802. Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)  | Média |
+| [2290. Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)  | Difícil |
 
 ## Conclusões
 
-### XXX. Title
-Description
+### 802. Find Eventual Safe States
+O problema pede para, dado uma grafo de `n` nós, Retretornar um array contendo todos os nós seguros do grafo. Com um nó sendo seguro quando todos os caminhos possíveis que partem desse nó levam a um nó terminal (ou a outro nó seguro).
+
+* Um nó é considerado terminal se não houver arestas de saída para ele.
+
+---
+
+### 2290. Minimum Obstacle Removal to Reach Corner
+O problema pede para, dado uma matriz `m x n`, com cada célula tendo valor:
+
+* `0` quando vazia
+* `1` quando contém obsatáculo
+
+Retorne o valor mínimo de obstáculos removidos para ir de `(0, 0)` para `(m - 1, n - 1)`.
 
 ---
 
