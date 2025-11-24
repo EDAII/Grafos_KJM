@@ -14,7 +14,7 @@ Nossa dupla realizou algumas questões da plataforma LeetCode, no intuito de col
 
 **Gravação da Apresentação**:
 
-Link da apresentação: 
+Link da apresentação: https://youtu.be/qnP2swFIo_Y
 
 ---
 
