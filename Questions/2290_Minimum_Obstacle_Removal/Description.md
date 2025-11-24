@@ -1,10 +1,13 @@
-# 802. Find Eventual Safe States
+# 2290. Minimum Obstacle Removal to Reach Corner
 
-There is a directed graph of `n` nodes with each node labeled from `0` to `n - 1`. The graph is represented by a **0-indexed** 2D integer array `graph` where `graph[i]` is an integer array of nodes adjacent to node `i`, meaning there is an edge from node `i` to each node in `graph[i]`.
+You are given a **0-indexed** 2D integer array `grid` of size `m x n`. Each cell has one of two values:
 
-A node is a **terminal node** if there are no outgoing edges. A node is a **safe node** if every possible path starting from that node leads to a **terminal node** (or another safe node).
+* 0 represents an empty cell,
+* 1 represents an obstacle that may be removed.
 
-Return an __array containing all the **safe nodes** of the graph__. The answer should be sorted in **ascending** order.
+You can move up, down, left, or right from and to an empty cell.
+
+Return _the **minimum** number of *obstacles* to *remove* so you can move from the upper left corner `(0, 0)` to the lower right corner `(m - 1, n - 1)`_.
 
 **Example 1:**
 
